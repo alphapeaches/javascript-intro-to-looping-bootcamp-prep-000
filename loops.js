@@ -9,10 +9,10 @@ for (var i = 1; i < 26; i++){
 
 function whileLoop(n){
   while (n > 0){
+    console.log(n);
     n = n - 1;
   }
-  if (n === 0) {n = "done"}
-  return n;
+  return "done";
 }
 /**
 function doWhileLoop (array){
