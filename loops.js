@@ -11,7 +11,8 @@ function whileLoop(n){
   while (n>0){
     n = n - 1;
   }
-  return "done";
+  if (n === 0) {n = "done"}
+  return n;
 }
 /**
 function doWhileLoop (array){
