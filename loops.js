@@ -1,5 +1,5 @@
 function forLoop(arr){
-for (var i = 1; i < 25; i++){
+for (var i = 1; i < 26; i++){
   if (i === 1){
     arr.push(`I am ${i} strange loop.`);
   }else arr.push(`I am ${i} strange loops.`);
