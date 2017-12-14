@@ -4,6 +4,7 @@ for (var i = 1; i < 25; i++){
     arr.push(`I am ${i} strange loop.`);
   }else arr.push(`I am ${i} strange loops.`);
   }
+  return arr;
 }
 /**
 function whileLoop(n){
